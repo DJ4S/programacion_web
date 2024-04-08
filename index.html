@@ -4,27 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> WEB PROJECT 1 </title>
+    <title> LUCAS BIOLLEY </title>
+    <link rel="icon" type="image/png" href="IMAGENES/LOGO.png"/>
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
+
+  <!-- HEADER -->
+
   <header>
+
+    <div id="barra">
+      <a href="#" style="color:black;"> <img src="IMAGENES/LOGO.png" srcset alt="logo" id="logo_barra"/> </a>
+      <p id="texto_barra"> LUCAS BIOLLEY</p>
+      <!-- <img src="IMAGENES/MENU.png" id="menu_barra"/> -->
+      <div class="dropdown">
+        <button><img src="IMAGENES/MENU.png" id="menu_barra"/></button>
+        <div class="dropdown-options">
+          <a href="#contenedor_about">ABOUT</a>
+          <a href="#contenedor_experience">EXPERIENCE</a>
+          <a href="#contenedor_projects">PROJECTS</a>
+        </div>
+      </div>
+    </div>
+      
+    <div id="principal">
+      <div id="figura">
+        <img src="IMAGENES/PERFIL.png" id="foto_perfil"/>
+        <img src="IMAGENES/SPOTIFY.png" id="spotify"/>
+        <p id="texto_cancion"> On repeat </p>
+        <a href="https://open.spotify.com/intl-es/track/40iJIUlhi6renaREYGeIDS?si=a060395e2d964e45&nd=1" id="link_spotify" style="color:black;" target="_blank"> <p id="texto_cancion2"> Fair Trade by Drake </p> </a> 
+      </div>
+
+      <div id="texto_header">
         <p>
           ¡ HELLO WORLD ! 
           I'M LUCAS BIOLLEY NICE TO MEET YOU
         </p>
+      </div>
+
+    </div>
+
   </header>
   
   <!-- ABOUT -->
   <div id="contenedor_about">
+    <h2 id="titulo_about"> ABOUT </h2>
     <p id="texto_about"> 
-        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cumque tempore pariatur dolor omnis. Asperiores iusto, aspernatur vitae laborum accusamus debitis, exercitationem nemo nobis libero a impedit, ipsum voluptatibus! Quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsam voluptatum porro eum aliquam nesciunt. Obcaecati quos, quae dolorem dignissimos necessitatibus nesciunt laboriosam enim recusandae omnis reprehenderit culpa, numquam odit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique laborum natus qui illum, ipsum voluptates ex tenetur ea. Sapiente facere consequuntur est nisi iure! Voluptate ipsum quos impedit adipisci iste.</span>
-  </p>
+        <span> Born and raised in spain with a swiss father and a spanish mother, I was always a very curious person, ambitious and interested in new technologies. However, it was not until I was 17 years old that I realized that I wanted to dedicate my life to leaving a better world for future generations; I decided to do it through computer engineering and the knowledge it gives me about the use of new technologies to help people. Over the years, I have been developing projects with html, css, javascript, react, python, and arduino projects like this portfolio and others that you can see at the bottom of the portfolio. Outside of work, my hobbies are soccer, where I have participated in some teams, diving, and tourism to other countries to learn and enrich myself with other cultures. </span>
+    </p>
+
+    <div id="container_galeria">
+      <div class="caj_gal"> <img src="IMAGENES/VALLADOLID.png"> </div>
+      <div class="caj_gal"> <img src="IMAGENES/SPLIT.png"> </div>
+      <div class="caj_gal"> <img src="IMAGENES/TENERIFE.png"> </div>
+      <div class="caj_galf"> <img src="IMAGENES/DUBROVNICK.png"> </div>
+    </div> 
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div id="contenedor_experience">
+
+    <h2 id="titulo_experience"> EXPERIENCE </h2>
+    <ul>
+      <li style="--accent-color:#5179db">
+        <div class="date">2008</div>
+        <div class="title">LYÇÉE FRANÇAIS DE MADRID</div>
+        <div class="descr">I started my studies in this prestigious french school when I was 6 years old. The lycée français has in its facilities students of 139 different nationalities, which allows its students to learn and develop in a multicultural and enriching environment. It is also known for its educational system based on practical work, which has allowed me to develop my ability to analyze and deduce problems. Many of these jobs are in teams since another of the skills that they focus on developing is the ability to work in a team. With 18 years I finished my studies in this school in the branch of engineering sciences with the achievement of the title of selectivity highlighted by my work.</div>
+      </li>
+      <li style="--accent-color:#70a9a1">
+        <div class="date">2020</div>
+        <div class="title">UNIVERSIDAD POLITECNICA DE MADRID</div>
+        <div class="descr">I started my university studies in the field of computer engineering at this university, which has been recognized many times as <a href="https://www.upm.es/?id=74fea0635f408810VgnVCM10000009c7648a____&prefmt=articulo&fmt=detail#:~:text=La%20UPM%2C%20la%20mejor%20universidad%20espa%C3%B1ola%20seg%C3%BAn%20%E2%80%9CEl,la%20mejor%20polit%C3%A9cnica%20espa%C3%B1ola%20seg%C3%BAn%20esta%20clasificaci%C3%B3n.%2010.05.2023">the best in spain</a>. I have studied 3 years and a half in this university until my departure this year to argentina. During that time, I have been especially interested in web programming, mechatronics, and machine learning / artificial intelligence. However, I am open to new fields as i am a tremendously curious person.</div>
+      </li>
+      <li style="--accent-color:#f27059">
+        <div class="date">2023</div>
+        <div class="title">ENGLISH LEVEL</div>
+        <div class="descr">I started my studies in english at the lycee français de Madrid when I was 10 years old.  Once I arrived at the polytechnic university, I took the toeic certificate, and in december last year, I took the toefl exam in which I got 104 points out of 120, equivalent to a high C1.</div>
+      </li>
+      <li style="--accent-color:#b16498">
+        <div class="date">2024</div>
+        <div class="title">INSTITUTO TECNOLOGICO DE BUENOS AIRES</div>
+        <div class="descr">I am currently in a mobility program in argentina at the Instituto Tecnologico de Buenos Aires; during this time, I am taking various subjects such as bioinformatics, blockchain, and video game programming in order to get to know other fields of study. </div>
+      </li>  
+  </ul>
+</div>
+
+  <!-- PROJECTS -->
+  <div id="contenedor_projects">
+
+    <h2> PROJECTS </h2>
+
+     <a href="https://la-calculadora.netlify.app/" class="link_project"> <div id="container1">
+         <div class="caja">
+         <h7> THE CALCULATOR </h7>
+         <p class="texto_project"> The calculator is a complete project in javascript, html and css. This responsive web application has numerous functions and recognition of priority factors. </p>
+       </div>
+   </div>        </a>
+     
+  <a href="https://the-temapp.netlify.app/" class="link_project"> 
+    <div id="container2">
+         <div class="caja">
+         <h7> THE TEMAPP </h7> 
+         <p class="texto_project"> This non-responsive web application simulates a weather application using javascript apis. In order for it to work you must allow insecure content in the site settings. </p>
+         </div>  
+      </div> 
+  </a> 
+
+   <a href="#" class="link_project"> 
+     <div id="container3">
+       <div class="caja">
+         <h7> SERVOMOTOR CONTROL </h7> 
+         <p class="texto_project"> [In progress] This project is almost finished, its purpose is to control the servo with arduino without the use of libraries, only through registers. </p>
+       </div> 
+    </div> 
+   </a> 
+
+    <a href="#" class="link_project">  
+      <div id="container4">
+            <div class="caja">
+             <h7> AGE RECOGNITION </h7> 
+             <p class="texto_project"> [In progress] This project, at 40% developed, aims to develop, thanks to python, a machine learning system for face recognition of people and their ages. </p>
+           </div>  
+     </div> 
+    </a>
+
+  </div>
 
  <!-- FOOTER -->
  <footer>
+  <hr>
+
+  <img src="IMAGENES/LOGO.png" width="100px"/>
+  <p id="texto_logo"> DRACHEN </p>
+
+  <div id="enlaces">
+        <a href="https://www.instagram.com/lucasbiolley/" target="_blank"> <img src="IMAGENES/INSTAGRAM.png" width="40px"/> </a>
+        <a href="https://twitter.com/DJVS_" target="_blank"> <img src="IMAGENES/TWIITER.png" width="40px"/> </a>
+        <a href="mailto:lucas.biolley@gmail.com" target="_blank"> <img src="IMAGENES/GMAIL.png" width="40px"/> </a>
+        <a href="https://github.com/DJ4S" target="_blank"> <img src="IMAGENES/GITHUB.png" width="40px"/> </a>
+        <a href="https://www.linkedin.com/in/lucas-biolley-262119267/" target="_blank"> <img src="IMAGENES/LINKEDIN.png" width="40px"/> </a>
+  </div>
+
   <p id="copy" align="center"> <span> © </span>2023 LUCAS BIOLLEY </p>
+
+  <br>
+
 </footer>
+
+ <!-- SCRIPTS -->
+ <script src="JS/include-html.js"></script>
+  <!-- <script src="JS/prueba-timeline.js"></script> -->
+
+ <script type="text/javascript">
+  window.addEventListener("scroll", function(){
+    var header = document.querySelector("#barra");
+    header.classList.toggle("abajo", window.scrollY>0);
+  })
+</script>
 
   </body>
 </html>
