@@ -916,4 +916,13 @@ footer > img{
   }
 }
 
+.contenedor_video {
+  width: 80%;
+  margin: 0 auto; /* Centra horizontalmente */
+}
 
+.contenedor_video video {
+  width: 100%; /* Hace que el video ocupe todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción del video */
+  display: block; /* Elimina el pequeño espacio debajo del video */
+}
