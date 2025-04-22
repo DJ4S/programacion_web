@@ -840,6 +840,7 @@ footer {
 footer hr{
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 10px;
 
 }
 
@@ -919,6 +920,7 @@ footer > img{
 .contenedor_video {
   width: 80%;
   margin: 0 auto; /* Centra horizontalmente */
+  margin-bottom: 10px;
 }
 
 .contenedor_video video {
