@@ -244,7 +244,7 @@ button:hover{
   margin-top: 8%;
   margin-left: 10%;
   margin-right: 10%;
- // background-color: lightblue;
+  background-color: lightblue; /* Quitar Si necesario */
 }
 
 
@@ -308,16 +308,16 @@ button:hover{
 
 /* CONTENEDOR ABOUT ---------------------------------------------------------- */
 
-#contenedor_about{
+.contenedor_about{
   width: 100%;
 }
 
-#titulo_about{
+.titulo_about{
   font-family: 'Exo 2', sans-serif;
   margin-left: 22%;
 }
 
-#texto_about{
+.texto_about{
   font-family: 'Exo 2', sans-serif;
   text-align: justify;
   width:84%;
@@ -892,6 +892,7 @@ footer > img{
 #enlaces{
   display: flex;
   max-width: 80%;
+  margin-top: 10px;
   margin-bottom: 10px;
   align-items: center;
   justify-content: center;
